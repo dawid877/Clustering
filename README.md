@@ -26,3 +26,24 @@ Cluster evaluation was conducted using **Silhouette Score** and **Hopkins Statis
 - `top200.csv` – Cleaned and preprocessed version used in the analysis.  
   **Note:** This file must be in the same directory when running the `.ipynb` notebook.  
 - `final_scaled_data.csv` – Scaled numerical features used for clustering.
+
+## Key Insights
+
+Clustering the Top 200 Spotify songs proved challenging due to the high similarity between tracks — the data is nearly uniformly distributed. However, two distinct clusters were identified:
+
+**Cluster 1:**
+- 59 songs, mainly high-ranking hits (average rank: 31; range: 1–71).
+- Newer songs, averaging 35 weeks on the chart (from 2 to 128 weeks).
+- Average streams: 25M (median 21M), popularity score: 84/100.
+- Represents recent, globally popular songs.
+
+**Cluster 2:**
+- 141 songs, lower-ranked (average rank: 129).
+- Older tracks, averaging 63 weeks on the chart.
+- Fewer streams (11M avg.), but similar popularity score (80).
+- Indicates that long-lasting niche songs also hold strong positions thanks to loyal fans.
+
+> Overall, the analysis suggests that chart position is influenced not only by popularity or streams, but also by song maturity and fan loyalty.
+
+
+
